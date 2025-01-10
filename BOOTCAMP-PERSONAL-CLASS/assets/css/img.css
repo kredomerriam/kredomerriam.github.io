@@ -1,0 +1,14 @@
+div{
+    /* container/cup for background image */
+    height: 500px;
+    width: 100%;
+}
+.div1{
+    background-image: url(../image/dancecute.gif);
+    /* background-size */
+    /* background-size: cover; */
+    background-size: contain;
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}

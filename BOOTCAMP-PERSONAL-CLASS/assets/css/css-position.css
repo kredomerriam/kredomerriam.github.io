@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: seagreen;
+}
+.static{
+    position: static;
+    background-color: seagreen;
+    color: white;
+}
+.relative{
+    position: relative;
+    background-color: black;
+    color: pink;
+    top: 20px;
+    left: 50px;
+    margin-bottom: 1000px;
+}
+.absolute{
+    position: absolute;
+    background-color: navy;
+    color: white;
+    width: 300px;
+    padding: 15px;
+    top: 10px;
+    right: 20px;
+}
+.fixed{
+    position: fixed;
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    bottom: 10px;
+    right: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+/* DISPLAY */
+.block{
+    display: block;
+    height: 100px;
+    width: 200px;
+    background-color: paleturquoise;
+    margin-bottom: 10px;
+}
+.inline{
+    display: inline;
+    height: 100px;
+    width: 200px;
+    background-color: lightpink
+}
+.inline-block{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    background-color:lightgreen
+}
+/* Z-INDEX */
+.box{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.red{
+    background-color: red;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+}
+.blue{
+    background-color: rgba(0, 0, 255, 0.497);
+    left: 100px;
+    top: 100px;
+    z-index: 3;
+}
+.green{
+    background-color: green;
+    left: 150px;
+    top: 150px;
+    z-index: 1;
+}
